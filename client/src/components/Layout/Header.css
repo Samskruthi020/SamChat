@@ -1,0 +1,91 @@
+/* Header.css */
+.main-header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 1rem 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-item {
+    font-size: 1rem;
+    color: #4b5563;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-bottom-color 0.2s;
+}
+
+.nav-item:hover {
+    color: #111827;
+}
+
+.nav-item.active {
+    color: #667eea;
+    border-bottom-color: #667eea;
+}
+
+.header-auth {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-button {
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.header-button.login, .header-button.chat, .header-button.profile {
+    background-color: #f3f4f6;
+    color: #374151;
+}
+
+.header-button.login:hover, .header-button.chat:hover, .header-button.profile:hover {
+    background-color: #e5e7eb;
+}
+
+.header-button.signup {
+    background-color: #667eea;
+    color: white;
+}
+.header-button.signup:hover {
+    background-color: #5a67d8;
+}
+
+.header-button.logout {
+    background-color: #ef4444;
+    color: white;
+}
+.header-button.logout:hover {
+    background-color: #dc2626;
+} 

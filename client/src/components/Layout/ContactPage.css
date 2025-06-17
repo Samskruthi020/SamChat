@@ -1,0 +1,59 @@
+/* ContactPage.css */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    background-color: #f9fafb;
+    min-height: 80vh;
+}
+
+.contact-card {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.contact-intro {
+    font-size: 1.1rem;
+    color: #4b5563;
+    margin-bottom: 2rem;
+}
+
+.contact-details {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.contact-item {
+    font-size: 1rem;
+    color: #374151;
+}
+
+.contact-item strong {
+    color: #111827;
+    margin-right: 0.5rem;
+}
+
+.contact-item a {
+    color: #667eea;
+    text-decoration: none;
+    transition: text-decoration 0.2s;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+} 
