@@ -15,25 +15,18 @@ A modern, feature-rich chat application built with the MERN stack (MongoDB, Expr
 
 ## Screenshots
 
-### Login Page
 ![Login Page](docs/images/image.png)
 
-### Chat Interface
 ![Chat Interface](docs/images/image_copy.png)
 
-### Friend Requests
 ![Friend Requests](docs/images/image_copy_2.png)
 
-### User Search
 ![User Search](docs/images/image_copy_3.png)
 
-### Profile Page
 ![Profile Page](docs/images/image_copy_4.png)
 
-### Mobile View
 ![Mobile View](docs/images/image_copy_5.png)
 
-### Notifications
 ![Notifications](docs/images/image_copy_6.png)
 
 ## Quick Start
